@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		0F3F42621DDE8BFE004368B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F42611DDE8BFE004368B7 /* main.m */; };
 		0F3F42651DDE8BFE004368B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F42641DDE8BFE004368B7 /* AppDelegate.m */; };
-		0F3F42681DDE8BFE004368B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F42671DDE8BFE004368B7 /* ViewController.m */; };
-		0F3F426B1DDE8BFE004368B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F42691DDE8BFE004368B7 /* Main.storyboard */; };
 		0F3F426D1DDE8BFE004368B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F426C1DDE8BFE004368B7 /* Assets.xcassets */; };
 		0F3F42701DDE8BFE004368B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F426E1DDE8BFE004368B7 /* LaunchScreen.storyboard */; };
 		0F3F427B1DDE8BFE004368B7 /* WaveWateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F427A1DDE8BFE004368B7 /* WaveWateDemoTests.m */; };
 		0F3F42861DDE8BFE004368B7 /* WaveWateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F42851DDE8BFE004368B7 /* WaveWateDemoUITests.m */; };
+		0F3F42961DDE8C71004368B7 /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F42941DDE8C71004368B7 /* WaveViewController.m */; };
+		0F3F429B1DDE8C93004368B7 /* WaveWaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F429A1DDE8C93004368B7 /* WaveWaterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,6 @@
 		0F3F42611DDE8BFE004368B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F3F42631DDE8BFE004368B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F3F42641DDE8BFE004368B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F3F42661DDE8BFE004368B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0F3F42671DDE8BFE004368B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0F3F426A1DDE8BFE004368B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F3F426C1DDE8BFE004368B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F3F426F1DDE8BFE004368B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3F42711DDE8BFE004368B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +48,10 @@
 		0F3F42811DDE8BFE004368B7 /* WaveWateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveWateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3F42851DDE8BFE004368B7 /* WaveWateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveWateDemoUITests.m; sourceTree = "<group>"; };
 		0F3F42871DDE8BFE004368B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3F42931DDE8C71004368B7 /* WaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		0F3F42941DDE8C71004368B7 /* WaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+		0F3F42991DDE8C93004368B7 /* WaveWaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveWaterView.h; sourceTree = "<group>"; };
+		0F3F429A1DDE8C93004368B7 /* WaveWaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveWaterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +102,11 @@
 		0F3F425F1DDE8BFE004368B7 /* WaveWateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0F3F42981DDE8C78004368B7 /* WaveWaterView */,
 				0F3F42631DDE8BFE004368B7 /* AppDelegate.h */,
 				0F3F42641DDE8BFE004368B7 /* AppDelegate.m */,
-				0F3F42661DDE8BFE004368B7 /* ViewController.h */,
-				0F3F42671DDE8BFE004368B7 /* ViewController.m */,
-				0F3F42691DDE8BFE004368B7 /* Main.storyboard */,
+				0F3F42931DDE8C71004368B7 /* WaveViewController.h */,
+				0F3F42941DDE8C71004368B7 /* WaveViewController.m */,
 				0F3F426C1DDE8BFE004368B7 /* Assets.xcassets */,
 				0F3F426E1DDE8BFE004368B7 /* LaunchScreen.storyboard */,
 				0F3F42711DDE8BFE004368B7 /* Info.plist */,
@@ -138,6 +139,15 @@
 				0F3F42871DDE8BFE004368B7 /* Info.plist */,
 			);
 			path = WaveWateDemoUITests;
+			sourceTree = "<group>";
+		};
+		0F3F42981DDE8C78004368B7 /* WaveWaterView */ = {
+			isa = PBXGroup;
+			children = (
+				0F3F42991DDE8C93004368B7 /* WaveWaterView.h */,
+				0F3F429A1DDE8C93004368B7 /* WaveWaterView.m */,
+			);
+			name = WaveWaterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +258,6 @@
 			files = (
 				0F3F42701DDE8BFE004368B7 /* LaunchScreen.storyboard in Resources */,
 				0F3F426D1DDE8BFE004368B7 /* Assets.xcassets in Resources */,
-				0F3F426B1DDE8BFE004368B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3F42681DDE8BFE004368B7 /* ViewController.m in Sources */,
+				0F3F42961DDE8C71004368B7 /* WaveViewController.m in Sources */,
 				0F3F42651DDE8BFE004368B7 /* AppDelegate.m in Sources */,
 				0F3F42621DDE8BFE004368B7 /* main.m in Sources */,
+				0F3F429B1DDE8C93004368B7 /* WaveWaterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0F3F42691DDE8BFE004368B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F3F426A1DDE8BFE004368B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F3F426E1DDE8BFE004368B7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WaveWaterView.h
 //  WaveWateDemo
 //
 //  Created by my on 2016/11/18.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WaveWaterView : UIView
 
+@property (nonatomic, assign) CGFloat progress;
 
 @end
-
